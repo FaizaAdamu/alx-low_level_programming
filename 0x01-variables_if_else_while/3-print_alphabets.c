@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /**
  * main - Indicates the alphabet.
  *
@@ -16,5 +17,4 @@ char alp[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 	putchar('\n');
 	return (0);
 }
-
 
