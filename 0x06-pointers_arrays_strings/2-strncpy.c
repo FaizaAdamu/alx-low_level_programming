@@ -2,11 +2,11 @@
 
 /**
   * _strncpy - function that copies a string.
-  * @dest: input value
-  * @src: input value
-  * @n: input value
+  * @dest: the buffer storing the string copy.
+  * @src:the source string
+  * @n: the maximum number of bytes to be copied from src.
   *
-  * return: A pointer to the resulting string dest.
+  * Return: A pointer to the resulting string dest.
   */
 
 char *_strncpy(char *dest, char *src, int n)
